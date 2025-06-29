@@ -1,0 +1,498 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+}
+
+.contener {
+    display: grid;
+    grid-template-rows: 40px 1fr 300px; /* الرأس، المحتوى الرئيسي، الرجل */
+    height: 100vh; /* ارتفاع الصفحة بالكامل */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    grid-row: 1 / 2; 
+}
+
+.conten {
+    padding: 20px;
+    grid-row: 2 / 3; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    grid-row: 3 / 4; 
+}
+
+.profile {
+    text-align: center;
+    margin-top: 40px;
+}
+
+nav UL li{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #ff8660, #8000ff);
+}
+
+
+.project {
+    margin-bottom: 20px; /* مسافة بين المشاريع */
+}
+  
+ul {
+    list-style-type: none; 
+    padding: 0;           
+    margin: 0;           
+    display: flex;        
+}
+
+li {
+    margin-right: 80px;   
+   
+}
+
+ li:last-child {
+    margin-right: 0;     
+}
+
+ul a {
+    text-decoration: none; 
+    color:white; 
+    font-size: 10px;      
+}
+.title {
+    font-family: "Poppins", sans-serif;; 
+    font-size: 55px; 
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -45px;
+    color:white;
+}
+span{
+    background: linear-gradient(to bottom right, #ff8660 40%, #9a33ff); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+#about{
+     font-family: "Poppins", sans-serif;; 
+    font-size: 18px; 
+    text-align: center; 
+    font-weight:300;
+    margin-top: -20px;
+     color: #c5c5c5;;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 50px
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px; 
+    margin: 10px; 
+    font-size: 16px; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 50px; 
+    transition: background-color 0.3s;
+}
+
+.get-in-touch {
+    background-color: white;
+    color: #000; 
+    border: 2px solid black;
+}
+
+.download-cv {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.experience{
+      font-family: "Poppins", sans-serif;; 
+    font-size: 18px;
+    text-align: center; 
+    font-weight:300;
+     color: #c5c5c5;
+     margin-top: 75px;
+     padding-bottom: 15px;
+}
+
+.logos  {
+  
+    margin-right: 10px; /* مسافة بين الشعارات */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.logos li{
+    width: 0px;
+}
+
+
+
+.title_project{
+      font-family: "Poppins", sans-serif;; 
+    font-size: 40px;
+    text-align: center; 
+   color: #d5491d;
+    font-weight: bolder;
+    margin-top: 75px;
+}
+
+
+  .projects-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* عمودان */
+            gap: 20px;
+            max-width: 800px; /* تحديد عرض أقصى للحاوية */
+            margin: 0 auto; /* لتوسيط الحاوية أفقيًا */
+        }
+        .project {
+              position: relative;
+            background-color: #2a2a2a; /* لون خلفية المشروع */
+            border-radius: 17px;
+            overflow: hidden; /* لإخفاء الزوائد */
+            color: white; /* لون النص */
+            height: 297px;
+        }
+       .visit {
+         font-family: "Poppins", sans-serif;; 
+    font-size: 10px;
+    font-weight:800;
+     color: #c5c5c5;
+     padding-left: 20px;
+     margin-block-end: -15px;
+       }
+
+       .name_pro{
+  font-family: "Poppins", sans-serif;; 
+    font-size: 19px;
+    font-weight:800;
+     color: #ffffff;
+     padding-left: 20px;
+       }
+       .view_icor{
+        position: absolute; /* جعل الصورة مطلقة */
+          top: 87%;
+    left: 94%;
+    transform: translateX(-50%);
+    width: 10px;
+            height:auto; 
+       }
+       .title_experience{
+          font-family: "Poppins", sans-serif;; 
+    font-size: 40px;
+    text-align: center; 
+  
+    background: linear-gradient(to bottom right, #5BADFF , #1373d1); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: bolder;
+    margin-top: 75px;
+       }
+
+       .EXPERIENCE{
+        width: 800PX;
+        height: 500PX;
+        margin: 0 auto;
+       
+       }
+       .experience-section {
+        height: 150px;
+        position: relative;
+         
+       }
+       .experience_title{
+        color: #ffffff;
+    display: inline;
+    position: absolute;
+    top: -13%;
+    left: 6%;
+    font-weight: 700;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;; 
+       }
+       .date{
+    color: #8491A0;
+    display: inline;
+    position: absolute;
+      top: -5%;
+    left: 83%;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;; 
+       }
+       .experience_suptitle{
+             color: #8491A0;
+       }
+
+      
+       .CONTANT{
+        width: 800PX;
+       height: 122px;
+        margin: 0 auto;
+        position: relative;
+       
+       }
+       .contant-titel{
+         color: #ffffff;
+    display: inline;
+    position: absolute;
+    top: 35%;
+    left: -1%;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;; 
+
+       }
+
+        .contant-suptitel{
+         color: #c5c5c5;
+    display: inline;
+    position: absolute;
+    top: 80%;
+    left: -1%;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;; 
+
+       }
+
+       .Email-icon{
+        display: inline;
+    position: absolute;
+    top: 155%;
+    left: -1%;
+       }
+       .Email{
+         color: #c5c5c5;
+    display: inline;
+    position: absolute;
+    top: 142%;
+    left: 2%;
+    font-weight: 600;
+    font-size: 15px;
+       }
+       .contant-icon{
+ display: inline;
+    position: absolute;
+    top: 180%;
+    left: -1%;
+    font-family: "Poppins", sans-serif;; 
+       }
+
+      .contant-icon li {
+    margin-right: 17px;
+}
+
+
+
+@media (max-width: 768px) {
+    body{
+         padding-bottom: 20px;
+    }
+    
+    .contener {
+        grid-template-rows: auto auto auto; 
+        height: auto; 
+       
+    }
+
+    header {
+        flex-direction: column; 
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    .title {
+        font-size: 30px; 
+        margin-top: -20px; 
+    }
+
+    ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 0;
+    margin-right: 0;
+    width: 100%;
+    gap: 10px;
+}
+
+li {
+    margin-right: 5px;
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.button-container {
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.logos li {
+    width: 40px;
+}
+
+.title_project {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.projects-container {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.project img:first-child {
+    width: 100%;
+}
+
+.project p {
+    padding: 10px;
+}
+
+.visit, .name_pro {
+   font-size: 12px;
+   padding-left: 10px;
+}
+
+.title_experience {
+   font-size: 30px;
+   margin-top: 50px;
+}
+
+.EXPERIENCE, .CONTANT {
+   width: auto;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: auto;
+}
+
+.CONTANT {
+    margin-top: 40px;
+}
+
+.experience_title, .date, .contant-titel, .contant-suptitel {
+   font-size: 16px;
+   position: static;
+   margin-bottom: 10px;
+}
+
+.Email, .contant-icon li {
+   font-size: 12px;
+   margin-right: 10px;
+}
+
+footer {
+    height: 230px;
+}
+
+.contant-icon {
+    padding-bottom: 20px;
+    top: 130%;
+    left: 5%;
+}
+
+.contant-titel {
+    display: block;
+}
+
+.Email {
+    top: 108%;
+    left: 8%;
+}
+
+.Email-icon {
+    top: 118%;
+    left: 5%;
+}
+
+@media (max-width: 564px) {
+    .experience-section {
+        padding-bottom: 50px;
+    }
+    
+    footer {
+        height: 325px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .title_project, .title_experience {
+        font-size: 24px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    .visit, .name_pro, .Email {
+       font-size: 10px;
+    }
+}
+
+    .Email {
+        top: 113%;
+        left: 11%;
+    }
+   
+}
+
+@media (max-width: 400px) {
+    .experience-section{
+        padding-bottom: 100px;
+        
+    }
+   
+}
